@@ -1,0 +1,71 @@
+{
+  "integrations": [
+    {
+      "id": "76792109-1258-42f4-b7cb-55579b00529a",
+      "name": "integration-1",
+      "description": "test integration description",
+      "type": "webhook",
+      "status": "active",
+      "authType": "base",
+      "credentials": {
+        "username": "test",
+        "password": "test"
+      },
+      "targetUrl": "http://localhost:3000/notifications",
+      "associatedStudyUuids": [
+        "08c12e64-4c18-4cf5-818d-0531c6fff344"
+      ],
+      "createdBy": "tenant admin",
+      "createdAt": "2023-07-20T01:30:00.000Z",
+      "updatedBy": "tenant admin",
+      "updatedAt": "2023-07-20T01:30:00.000Z",
+      "version": 1
+    },
+    {
+      "id": "4a139f3f-f24b-4dae-8da0-0ea89500069f",
+      "name": "integration-2",
+      "description": "test integration description",
+      "type": "webhook",
+      "status": "active",
+      "authType": "base",
+      "credentials": {
+        "username": "test",
+        "password": "test"
+      },
+      "targetUrl": "http://localhost:3000/notifications",
+      "associatedStudyUuids": [
+        "08c12e64-4c18-4cf5-818d-0531c6fff344"
+      ],
+      "createdBy": "tenant admin",
+      "createdAt": "2023-07-20T01:30:00.000Z",
+      "updatedBy": "tenant admin",
+      "updatedAt": "2023-07-20T01:30:00.000Z",
+      "version": 1
+    }
+  ],
+  "payloads": [
+    {
+      "id": "7cce86fd-0ac1-40f1-a778-12242c2c42b6",
+      "name": "integration-payload-1",
+      "description": "integration payload 1 description",
+      "template": "{\"message\": \"A {{formName}}, was recorded in {{studyName}} on {{recordedAt}}\",\"address\": \"{{link}}\"}",
+      "createdBy": "s37-system",
+      "createdAt": "2023-07-20T01:30:00.000Z",
+      "updatedBy": "s37-system",
+      "updatedAt": "2023-07-20T01:30:00.000Z",
+      "version": 1
+    },
+    {
+      "id": "7cce86fd-0ac1-40f1-a778-12242c2c42b7",
+      "name": "integration-payload-1",
+      "description": "integration payload 1 description",
+      "template": "{\"message\": \"A {{formName}}, was recorded in {{studyName}} on {{recordedAt}}\",\"address\": \"{{link}}\"}",
+      "createdBy": "s37-system",
+      "createdAt": "2023-07-20T01:30:00.000Z",
+      "updatedBy": "s37-system",
+      "updatedAt": "2023-07-20T01:30:00.000Z",
+      "version": 1
+    }
+  ],
+  "notifications": []
+}
