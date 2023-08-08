@@ -3,7 +3,7 @@
     {
       "id": "76792109-1258-42f4-b7cb-55579b00529a",
       "name": "integration-1",
-      "description": "test integration description",
+      "description": "test integration description test",
       "type": "webhook",
       "status": "active",
       "authType": "base",
