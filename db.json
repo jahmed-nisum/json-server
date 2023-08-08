@@ -11,7 +11,7 @@
         "username": "test",
         "password": "test"
       },
-      "targetUrl": "http://github.com/jahmed-nisum/json-server/notifications",
+      "targetUrl": "http://my-json-server.typicode.com/jahmed-nisum/json-server/notifications",
       "associatedStudyUuids": [
         "08c12e64-4c18-4cf5-818d-0531c6fff344"
       ],
@@ -32,7 +32,7 @@
         "username": "test",
         "password": "test"
       },
-      "targetUrl": "http://github.com/jahmed-nisum/json-server/notifications",
+      "targetUrl": "http://my-json-server.typicode.com/jahmed-nisum/json-server/notifications",
       "associatedStudyUuids": [
         "08c12e64-4c18-4cf5-818d-0531c6fff344"
       ],
